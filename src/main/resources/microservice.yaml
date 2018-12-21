@@ -16,5 +16,10 @@ cse:
   rest:
     address: 0.0.0.0:8080   # 本服务监听的地址
 
+  handler:
+    chain:
+      Provider:
+        default: qps-flowcontrol-provider,demo-handler,bizkeeper-provider
+
 hello:
   sayHello: "Hi "

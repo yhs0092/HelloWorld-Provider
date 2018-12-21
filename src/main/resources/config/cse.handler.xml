@@ -1,0 +1,4 @@
+<config>
+  <handler id="demo-handler"
+    class="training.demo.provider.handler.DemoHandler"/>
+</config>
