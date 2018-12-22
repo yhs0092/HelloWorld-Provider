@@ -9,7 +9,7 @@
   <version>0.0.1-SNAPSHOT</version>
 
   <properties>
-    <cse.version>2.3.35</cse.version>
+    <cse.version>2.3.52</cse.version>
     <main.class>training.demo.provider.AppMain</main.class>
   </properties>
 
