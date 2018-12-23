@@ -21,5 +21,10 @@ cse:
       Provider:
         default: qps-flowcontrol-provider,demo-handler,bizkeeper-provider
 
+  accesslog:
+    enabled: true
+    pattern: "%h cs-method cs-uri %s %B %SCB-traceId"
+
+
 hello:
   sayHello: "Hi "
