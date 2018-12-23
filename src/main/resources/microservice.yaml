@@ -13,6 +13,9 @@ cse:
       serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
       refreshMode: 1
       refresh_interval: 5000
+#  monitor:  # 只有从本地接入云上CSE时需要配置monitor地址，云上CCE集群部署时可以通过服务发现接入monitor
+#    client:
+#      serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
   rest:
     address: 0.0.0.0:8080   # 本服务监听的地址
 
