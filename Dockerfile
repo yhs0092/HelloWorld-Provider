@@ -1,4 +1,4 @@
-FROM openjdk:8u181-jdk-alpine
+FROM swr.cn-north-1.myhuaweicloud.com/yhs0092/my-openjdk:0.0.1
 
 WORKDIR /home/apps/
 
